@@ -1,0 +1,33 @@
+mkdir SI_2025_lab1_INDEX 
+cd SI_2025_lab1_INDEX     
+PS C:\Users\David\SI_2025_lab1_233133> git init
+PS C:\Users\David\SI_2025_lab1_233133> git remote add origin https://github.com/Kova4e/SI_2025_lab1_233133.git
+PS C:\Users\David\SI_2025_lab1_233133> git branch -M master
+PS C:\Users\David\SI_2025_lab1_233133> git config --global user.name "Kova4e"
+PS C:\Users\David\SI_2025_lab1_233133> git config --global user.email "david4e22042004@gmail.com"
+PS C:\Users\David\SI_2025_lab1_233133> echo "David Kovaceski 233133" > README.md
+PS C:\Users\David\SI_2025_lab1_233133> git add README.md
+PS C:\Users\David\SI_2025_lab1_233133> git commit -m "Initial commit"
+PS C:\Users\David\SI_2025_lab1_233133> git push -u origin master
+PS C:\Users\David\SI_2025_lab1_233133> git add SI2025Lab1Main.java
+PS C:\Users\David\SI_2025_lab1_233133> git commit -m "Add starter code"
+PS C:\Users\David\SI_2025_lab1_233133> git push origin master
+PS C:\Users\David\SI_2025_lab1_233133> git pull origin master
+PS C:\Users\David\SI_2025_lab1_233133> git fetch origin
+PS C:\Users\David\SI_2025_lab1_233133> git checkout 1-remove-a-task-by-name
+PS C:\Users\David\SI_2025_lab1_233133> git commit -m "Remove a task by name"
+PS C:\Users\David\SI_2025_lab1_233133> git push origin 1-remove-a-task-by-name
+PS C:\Users\David\SI_2025_lab1_233133> git checkout 4-sort-tasks-by-priority
+PS C:\Users\David\SI_2025_lab1_233133> git commit -m "Sort tasks by priority"
+PS C:\Users\David\SI_2025_lab1_233133> git push origin 4-sort-tasks-by-priority
+PS C:\Users\David\SI_2025_lab1_233133> git checkout 8-mark-task-as-completed-by-name
+PS C:\Users\David\SI_2025_lab1_233133> git commit -m "Mark task as completed by name"
+PS C:\Users\David\SI_2025_lab1_233133> git push origin 8-mark-task-as-completed-by-name
+PS C:\Users\David\SI_2025_lab1_233133> git checkout master
+PS C:\Users\David\SI_2025_lab1_233133> git merge 4-sort-tasks-by-priority
+PS C:\Users\David\SI_2025_lab1_233133> git push origin master
+PS C:\Users\David\SI_2025_lab1_233133> git log --oneline --graph --all > logs.txt
+PS C:\Users\David\SI_2025_lab1_233133> git add logs.txt
+PS C:\Users\David\SI_2025_lab1_233133> git add 233133.txt
+PS C:\Users\David\SI_2025_lab1_233133> git commit -m "Final commit"
+PS C:\Users\David\SI_2025_lab1_233133> git push origin master
